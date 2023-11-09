@@ -1,0 +1,1 @@
+viam-sdk # purposely use latest SDK to find compatibility issues in the registry
