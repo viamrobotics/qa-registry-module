@@ -8,7 +8,7 @@ from viam.resource.types import Model, ModelFamily
 
 class MySensor(Sensor):
     # Subclass the Viam Arm component and implement the required functions
-    MODEL: ClassVar[Model] = Model(ModelFamily("viam", "qa-registry-module"), "hi")
+    MODEL: ClassVar[Model] = Model(ModelFamily("viam-qa", "qa-registry-module"), "hi")
 
     @classmethod
     def new(cls, config: ComponentConfig, dependencies: Mapping[ResourceName, ResourceBase]):
