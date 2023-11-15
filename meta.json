@@ -1,12 +1,12 @@
 {
-  "module_id": "viam:qa-registry-module",
+  "module_id": "viam-qa:qa-registry-module",
   "visibility": "private",
   "url": "https://github.com/viamrobotics/qa-registry-module",
   "description": "Used for QA of RDK releases",
   "models": [
     {
       "api": "rdk:component:sensor",
-      "model": "viam:qa-registry-module:hi"
+      "model": "viam-qa:qa-registry-module:hi"
     }
   ],
   "entrypoint": "run.sh"
